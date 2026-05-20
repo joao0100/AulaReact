@@ -1,6 +1,6 @@
-export default function Exe4()
+export default function Exe4(base,altura)
 {
-    return (
+  return (
         <div>
             
         </div>

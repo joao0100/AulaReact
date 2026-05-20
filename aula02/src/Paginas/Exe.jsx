@@ -1,4 +1,4 @@
-export default function Exe5()
+export default function Exe()
 {
     return (
         <div>
