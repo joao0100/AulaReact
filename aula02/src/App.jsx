@@ -12,6 +12,10 @@ import Exe3 from  "./Paginas/Exe3.jsx";
 
 import Exe4 from  "./Paginas/Exe4.jsx";
 
+import Exe5 from  "./Paginas/Exe5.jsx";
+
+import Exe6 from  "./Paginas/Exe6.jsx";
+
 export default function App()
 {
   return (
@@ -59,20 +63,22 @@ export default function App()
 
  <div className="card">
 
-<h3>Chamadas para o componente Exercicio 4</h3>
-
-<Exe4 base={200} altura={100} />
-
-<Exe4 base={180} altura={90} />
-
-</div>
-
-
-
+ <h3>Chamadas para o Exercicio 4</h3>
+    <Exe4 tipo="retangulo" base="10" altura="5"/>
+    <Exe4 tipo="triangulo" base="10" altura="5"/>
+    <Exe4 tipo="quadrado" base="10" altura="10"/>
     </div>
 
+    <div className="card">
+          <h3>Chamada para o Exercicio5</h3>
+          <Exe5 consultas={40}/>
+      </div>
 
+      <div className="card">
+          <h3>Chamada para o Exercicio6</h3>
+          <Exe6 capital={1000} taxa={5} tempo={6}/>
+      </div>
 
-    
+    </div>    
   )
 }
